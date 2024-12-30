@@ -3,43 +3,31 @@ package arrays;
 import java.util.Arrays;
 
 public class RearrangeArray {
-    // static int[] rearrangeArraay(int[] arr) {
-    // // int[] nums = { 5, -1, -3, -4, 7, 8 };
-    // // [5, -1, 7, -3, 8, -4]
-    // int leftPtr = 0;
-    // int rightPtr = 1;
-    // while (rightPtr < arr.length) {
-    // if (arr[leftPtr] >= 0) {
-    // leftPtr++;
-    // } else if (leftPtr < 0) {
-    // if (rightPtr > 0) {
-    // int temp = arr[leftPtr];
-    // arr[leftPtr] = arr[rightPtr];
-    // arr[rightPtr] = temp;
-    // }
-    // }
-    // rightPtr++;
-    // }
-
-    // }
-
     public static void main(String[] args) {
-        int[] arr = { 5, -1, -3, -4, 7, 8 };
-        int leftPtr = 0;
-        int rightPtr = 1;
-        while (rightPtr < arr.length) {
-            if (arr[leftPtr] >= 0) {
-                leftPtr++;
-            } else if (leftPtr < 0) {
-                if (rightPtr > 0) {
-                    int temp = arr[leftPtr];
-                    arr[leftPtr] = arr[rightPtr];
-                    arr[rightPtr] = temp;
-                }
+        int[] nums = { 3, 1, -2, -5, 2, -4 };
+        int[] pos = new int[nums.length / 2];
+        int[] neg = new int[nums.length / 2];
+        int j = 0;
+        int k = 0;
+        int[] arr = new int[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] > 0) {
+                pos[k] = nums[i];
+                k++;
             }
-            rightPtr++;
+        }
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] < 0) {
+                neg[j] = nums[i];
+                j++;
+            }
+        }
+        int l = 0;
+        for (int i = 0; i < arr.length / 2; i++) {
+            arr[2 * i] = pos[l];
+            arr[2 * i + 1] = neg[l];
+            l++;
         }
         System.out.println(Arrays.toString(arr));
-
     }
 }
