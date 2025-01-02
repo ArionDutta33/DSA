@@ -1,28 +1,40 @@
 package arrays;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
 
 public class UnionOfArrays {
     public static void main(String[] args) {
-        // 1 2 3 4 5
-        // 1 2 3
-        int[] arr = { 1, 2, 3, 4, 5 };
-        int[] nums = { 1, 2, 3 };
+        // O(m+n)log(m+n)
+        // int[] a = { 2, 2, 3, 4, 5 };
+        // int[] b = { 1, 1, 2, 3, 4 };
+        // Set<Integer> set = new HashSet<>();
+        // for (int i = 0; i < a.length; i++) {
+        // set.add(a[i]);
+        // }
+        // for (int i = 0; i < b.length; i++) {
+        // if (!set.contains(b[i])) {
+        // set.add(b[i]);
+        // }
+
+        // }
+        // ArrayList<Integer> list = new ArrayList<>(set);
+        // Collections.sort(list);
+        // System.out.println(list);
+
+        int[] a = { 2, 2, 3, 4, 5 };
+        int[] b = { 1, 1, 2, 3, 4 };
         ArrayList<Integer> list = new ArrayList<>();
-        int ans = 0;
-        for (int i = 0; i < nums.length; i++) {
-            ans = ans ^ nums[i];
-            if (ans != 0) {
-                list.add(nums[i]);
+        int i = 0;
+        int j = 0;
+        while (i < a.length && j < b.length) {
+            if (list.size() == 0 || list.get(list.size() - 1) != a[i]) {
+                list.add(a[i]);
             }
         }
-        ans = 0;
-        for (int i = 0; i < arr.length; i++) {
-            ans = ans ^ arr[i];
-            if (ans != 0 && !list.contains(arr[i])) {
-                list.add(arr[i]);
-            }
-        }
-        System.out.println(list);
     }
 }
