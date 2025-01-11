@@ -1,23 +1,22 @@
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class ArrayLeader {
-    // [16, 17, 4, 3, 5, 2]
+
     public static void main(String[] args) {
-        int[] arr = { 16, 17, 4, 3, 5, 2 };
-        int k = 0;
-        int i = 0;
+        int[] arr = { 61, 61, 17 };
+        int max = arr[arr.length - 1];
         ArrayList<Integer> list = new ArrayList<>();
-        boolean flag = true;// a leader
-        while (k < arr.length - 1) {
-            if (arr[i] < arr[i + 1]) {
-                flag = false;
-                i++;
-            } else {
-                list.add(i);
+        list.add(arr[arr.length - 1]);
+        for (int i = arr.length - 1; i >= 1; i--) {
+            if (arr[i - 1] >= arr[i] && arr[i - 1] >= max) {
+                list.add(arr[i - 1]);
+                max = arr[i - 1];
             }
-            k++;
         }
+        Collections.reverse(list);
         System.out.println(list);
     }
-
 }

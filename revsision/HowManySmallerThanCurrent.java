@@ -1,23 +1,23 @@
 package revsision;
 
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class HowManySmallerThanCurrent {
 
     public static void main(String[] args) {
+        HashMap<Integer, Integer> map = new HashMap<>();
         int[] arr = { 8, 1, 2, 2, 3 };
-        int[] res = new int[arr.length];
-        int k = 0;
         for (int i = 0; i < arr.length; i++) {
-            k = 0;
-            for (int j = 0; j < res.length; j++) {
-                if (arr[j] < arr[i] && i != j) {
-                    k++;
-                }
-            }
-            res[i] = k;
+            map.put(i, arr[i]);
         }
-        System.out.println(Arrays.toString(res));
+        int value = arr[1];
+        if (map.containsValue(arr[0])) {
+            System.out.println("bigger than 8");
+            return;
+        }
+
+        System.out.println("NO bigger");
 
     }
 }
