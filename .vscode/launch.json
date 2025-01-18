@@ -1,0 +1,812 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "reverseString",
+      "request": "launch",
+      "mainClass": "Strings.reverseString",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "SqrtRoot",
+      "request": "launch",
+      "mainClass": "arrays.Searching.BinarySearch.SqrtRoot",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "NumberOfOccurences",
+      "request": "launch",
+      "mainClass": "arrays.Searching.BinarySearch.NumberOfOccurences",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "CeilTheFloor",
+      "request": "launch",
+      "mainClass": "arrays.Searching.BinarySearch.CeilTheFloor",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "MoreUpperBound",
+      "request": "launch",
+      "mainClass": "arrays.Searching.BinarySearch.MoreUpperBound",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "Anagrams",
+      "request": "launch",
+      "mainClass": "Strings.Anagrams",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "SearchInSortedArray1",
+      "request": "launch",
+      "mainClass": "arrays.Searching.BinarySearch.SearchInSortedArray1",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "CheckPalindrome",
+      "request": "launch",
+      "mainClass": "CheckPalindrome",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ListIntro",
+      "request": "launch",
+      "mainClass": "CollectionFramework.ListIntro",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "FactorialRecursion",
+      "request": "launch",
+      "mainClass": "FactorialRecursion",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "Intro",
+      "request": "launch",
+      "mainClass": "Generics.Intro",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "CharacterHashing",
+      "request": "launch",
+      "mainClass": "Hashing.CharacterHashing",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "IntegerHash",
+      "request": "launch",
+      "mainClass": "Hashing.IntegerHash",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "Why",
+      "request": "launch",
+      "mainClass": "Hashing.Why",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "NthFibinacci",
+      "request": "launch",
+      "mainClass": "NthFibinacci",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "NthUsingRecursion",
+      "request": "launch",
+      "mainClass": "NthUsingRecursion",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "NtoOne",
+      "request": "launch",
+      "mainClass": "NtoOne",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "NtoOneBacktrack",
+      "request": "launch",
+      "mainClass": "NtoOneBacktrack",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "OneToN",
+      "request": "launch",
+      "mainClass": "OneToN",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "PrintName",
+      "request": "launch",
+      "mainClass": "PrintName",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ReverseAnArray",
+      "request": "launch",
+      "mainClass": "ReverseAnArray",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ReverseArrayRecursion",
+      "request": "launch",
+      "mainClass": "ReverseArrayRecursion",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ReverseArraySinglePointer",
+      "request": "launch",
+      "mainClass": "ReverseArraySinglePointer",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "SumOfN",
+      "request": "launch",
+      "mainClass": "SumOfN",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "SumOfNFunctional",
+      "request": "launch",
+      "mainClass": "SumOfNFunctional",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ArrayLeader",
+      "request": "launch",
+      "mainClass": "arrays.ArrayLeader",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ConcatArray",
+      "request": "launch",
+      "mainClass": "arrays.ConcatArray",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "CountNumbers",
+      "request": "launch",
+      "mainClass": "arrays.CountNumbers",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "Countitemsmatching",
+      "request": "launch",
+      "mainClass": "arrays.Countitemsmatching",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "Duplcates",
+      "request": "launch",
+      "mainClass": "arrays.Duplcates",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "FindTheMissingNumber",
+      "request": "launch",
+      "mainClass": "arrays.FindTheMissingNumber",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "GoodPairs",
+      "request": "launch",
+      "mainClass": "arrays.GoodPairs",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "Input",
+      "request": "launch",
+      "mainClass": "arrays.Input",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "IntersectionArrays",
+      "request": "launch",
+      "mainClass": "arrays.IntersectionArrays",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "IntersectionOfArrays",
+      "request": "launch",
+      "mainClass": "arrays.IntersectionOfArrays",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "IsPrime",
+      "request": "launch",
+      "mainClass": "arrays.IsPrime",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "JumpGame",
+      "request": "launch",
+      "mainClass": "arrays.JumpGame",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "KMostFrequentELements",
+      "request": "launch",
+      "mainClass": "arrays.KMostFrequentELements",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "LongestButton",
+      "request": "launch",
+      "mainClass": "arrays.LongestButton",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "LongestCommonPrefix",
+      "request": "launch",
+      "mainClass": "arrays.LongestCommonPrefix",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "LongestConsecutiveElements",
+      "request": "launch",
+      "mainClass": "arrays.LongestConsecutiveElements",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "LongestConsecutiveSequence",
+      "request": "launch",
+      "mainClass": "arrays.LongestConsecutiveSequence",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "LongestSubArray",
+      "request": "launch",
+      "mainClass": "arrays.LongestSubArray",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "Majority",
+      "request": "launch",
+      "mainClass": "arrays.Majority",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "MajorityElement",
+      "request": "launch",
+      "mainClass": "arrays.MajorityElement",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "Max1s",
+      "request": "launch",
+      "mainClass": "arrays.Max1s",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "MaxJump",
+      "request": "launch",
+      "mainClass": "arrays.MaxJump",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "MaxProduct",
+      "request": "launch",
+      "mainClass": "arrays.MaxProduct",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "MaxSubarray",
+      "request": "launch",
+      "mainClass": "arrays.MaxSubarray",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "MoveZeroesToEnd",
+      "request": "launch",
+      "mainClass": "arrays.MoveZeroesToEnd",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "NumberAppearsOnce",
+      "request": "launch",
+      "mainClass": "arrays.NumberAppearsOnce",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "NuniqueSum",
+      "request": "launch",
+      "mainClass": "arrays.NuniqueSum",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "PermuationArray",
+      "request": "launch",
+      "mainClass": "arrays.PermuationArray",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "PlusOne",
+      "request": "launch",
+      "mainClass": "arrays.PlusOne",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ReArrangeElementsBySign",
+      "request": "launch",
+      "mainClass": "arrays.ReArrangeElementsBySign",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "RearrangeArray",
+      "request": "launch",
+      "mainClass": "arrays.RearrangeArray",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "RemoveElement",
+      "request": "launch",
+      "mainClass": "arrays.RemoveElement",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ReturningSumOneD",
+      "request": "launch",
+      "mainClass": "arrays.ReturningSumOneD",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "RichestCustomer",
+      "request": "launch",
+      "mainClass": "arrays.RichestCustomer",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "RotateArray",
+      "request": "launch",
+      "mainClass": "arrays.RotateArray",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "FirstLastIndex",
+      "request": "launch",
+      "mainClass": "arrays.Searching.BinarySearch.FirstLastIndex",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "Intro(1)",
+      "request": "launch",
+      "mainClass": "arrays.Searching.BinarySearch.Intro",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "LowerBound",
+      "request": "launch",
+      "mainClass": "arrays.Searching.BinarySearch.LowerBound",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "UpperBound",
+      "request": "launch",
+      "mainClass": "arrays.Searching.BinarySearch.UpperBound",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "CountEvenDigits",
+      "request": "launch",
+      "mainClass": "arrays.Searching.LinearSearch.CountEvenDigits",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "Intro(2)",
+      "request": "launch",
+      "mainClass": "arrays.Searching.LinearSearch.Intro",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "KthMissingElement",
+      "request": "launch",
+      "mainClass": "arrays.Searching.LinearSearch.KthMissingElement",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "SingleElementMissing",
+      "request": "launch",
+      "mainClass": "arrays.Searching.LinearSearch.SingleElementMissing",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "SecondLargest",
+      "request": "launch",
+      "mainClass": "arrays.SecondLargest",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "SetMatrixZeroes",
+      "request": "launch",
+      "mainClass": "arrays.SetMatrixZeroes",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "SortedRotated",
+      "request": "launch",
+      "mainClass": "arrays.SortedRotated",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "BubbleSort",
+      "request": "launch",
+      "mainClass": "arrays.Sorting.BubbleSort.BubbleSort",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "InsertionSort",
+      "request": "launch",
+      "mainClass": "arrays.Sorting.InsertionSort.InsertionSort",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "SelectionSortIntro",
+      "request": "launch",
+      "mainClass": "arrays.Sorting.SelectionSort.SelectionSortIntro",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "StockBuySell",
+      "request": "launch",
+      "mainClass": "arrays.StockBuySell",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "SubArraySequenceEqualsSum",
+      "request": "launch",
+      "mainClass": "arrays.SubArraySequenceEqualsSum",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "SubArraySumK",
+      "request": "launch",
+      "mainClass": "arrays.SubArraySumK",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "SubarraywithCondition",
+      "request": "launch",
+      "mainClass": "arrays.SubarraywithCondition",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "arrays.Test",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "TwoDarrays",
+      "request": "launch",
+      "mainClass": "arrays.TwoDarrays",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "TwoSum",
+      "request": "launch",
+      "mainClass": "arrays.TwoSum",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "UnionOfArrays",
+      "request": "launch",
+      "mainClass": "arrays.UnionOfArrays",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "UniqueElements",
+      "request": "launch",
+      "mainClass": "arrays.UniqueElements",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ValidPerfectSquare",
+      "request": "launch",
+      "mainClass": "arrays.ValidPerfectSquare",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "CountDigits",
+      "request": "launch",
+      "mainClass": "basic.CountDigits",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "Hello",
+      "request": "launch",
+      "mainClass": "basic.Hello",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "UserInput",
+      "request": "launch",
+      "mainClass": "basic.UserInput",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ArrayPermuation",
+      "request": "launch",
+      "mainClass": "revsision.ArrayPermuation",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "CountEvenDigits(1)",
+      "request": "launch",
+      "mainClass": "revsision.CountEvenDigits",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "CountFrequencies",
+      "request": "launch",
+      "mainClass": "revsision.CountFrequencies",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "CountMatchingRule",
+      "request": "launch",
+      "mainClass": "revsision.CountMatchingRule",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "HowManySmallerThanCurrent",
+      "request": "launch",
+      "mainClass": "revsision.HowManySmallerThanCurrent",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "IsSortedRotated",
+      "request": "launch",
+      "mainClass": "revsision.IsSortedRotated",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "LongestSubArraySum",
+      "request": "launch",
+      "mainClass": "revsision.LongestSubArraySum",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "LongestSubSequence",
+      "request": "launch",
+      "mainClass": "revsision.LongestSubSequence",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "LongestSubarray",
+      "request": "launch",
+      "mainClass": "revsision.LongestSubarray",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "MajorityElement(1)",
+      "request": "launch",
+      "mainClass": "revsision.MajorityElement",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "MaxConsecutiveOnes",
+      "request": "launch",
+      "mainClass": "revsision.MaxConsecutiveOnes",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "MaxOnes",
+      "request": "launch",
+      "mainClass": "revsision.MaxOnes",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "MaxSubArraySum",
+      "request": "launch",
+      "mainClass": "revsision.MaxSubArraySum",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "MaxSubSum",
+      "request": "launch",
+      "mainClass": "revsision.MaxSubSum",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "MoveZeroesToEnd(1)",
+      "request": "launch",
+      "mainClass": "revsision.MoveZeroesToEnd",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "OneToN(1)",
+      "request": "launch",
+      "mainClass": "revsision.OneToN",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "Pangram",
+      "request": "launch",
+      "mainClass": "revsision.Pangram",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "PeakAltitude",
+      "request": "launch",
+      "mainClass": "revsision.PeakAltitude",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "RemoveDuplicates",
+      "request": "launch",
+      "mainClass": "revsision.RemoveDuplicates",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ReturningSum",
+      "request": "launch",
+      "mainClass": "revsision.ReturningSum",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "RichestCustomer(1)",
+      "request": "launch",
+      "mainClass": "revsision.RichestCustomer",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "RotateArray(1)",
+      "request": "launch",
+      "mainClass": "revsision.RotateArray",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "SecondLargest(1)",
+      "request": "launch",
+      "mainClass": "revsision.SecondLargest",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ShuffleArray",
+      "request": "launch",
+      "mainClass": "revsision.ShuffleArray",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "StockBuySell(1)",
+      "request": "launch",
+      "mainClass": "revsision.StockBuySell",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "Union",
+      "request": "launch",
+      "mainClass": "revsision.Union",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "twosum",
+      "request": "launch",
+      "mainClass": "revsision.twosum",
+      "projectName": "DSA_723acd1e"
+    }
+  ]
+}
