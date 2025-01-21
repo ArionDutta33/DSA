@@ -6,6 +6,104 @@
   "configurations": [
     {
       "type": "java",
+      "name": "KokoEatingBananas",
+      "request": "launch",
+      "mainClass": "arrays.KokoEatingBananas",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "PeakElement",
+      "request": "launch",
+      "mainClass": "Strings.PeakElement",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "RemoveOutermostoParenthesis",
+      "request": "launch",
+      "mainClass": "Strings.RemoveOutermostoParenthesis",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "IsomorphicStrings",
+      "request": "launch",
+      "mainClass": "Strings.IsomorphicStrings",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ReverseWords",
+      "request": "launch",
+      "mainClass": "Strings.ReverseWords",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "LengthOfLastWord",
+      "request": "launch",
+      "mainClass": "Strings.LengthOfLastWord",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "SortStringFrequency",
+      "request": "launch",
+      "mainClass": "Strings.SortStringFrequency",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "MaximumNestedParenthesis",
+      "request": "launch",
+      "mainClass": "Strings.MaximumNestedParenthesis",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "LargestOddNUmber",
+      "request": "launch",
+      "mainClass": "Strings.LargestOddNUmber",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "RotateString",
+      "request": "launch",
+      "mainClass": "Strings.RotateString",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "FindPeak",
+      "request": "launch",
+      "mainClass": "Searching.BinarySearch.FindPeak",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "FindKthRotation",
+      "request": "launch",
+      "mainClass": "Searching.BinarySearch.FindKthRotation",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "FindMinimumInRotatedSortedArray",
+      "request": "launch",
+      "mainClass": "Searching.BinarySearch.FindMinimumInRotatedSortedArray",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "SearchInSortedArrayII",
+      "request": "launch",
+      "mainClass": "SearchInSortedArrayII",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
       "name": "reverseString",
       "request": "launch",
       "mainClass": "Strings.reverseString",
