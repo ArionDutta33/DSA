@@ -1,4 +1,4 @@
-package basic;
+package Probs;
 
 import java.util.Scanner;
 
