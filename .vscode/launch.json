@@ -6,6 +6,97 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ValidAdjacentPairs",
+      "request": "launch",
+      "mainClass": "Strings.ValidAdjacentPairs",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "AdjacentDigits",
+      "request": "launch",
+      "mainClass": "Strings.AdjacentDigits",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ValidPalindromeII",
+      "request": "launch",
+      "mainClass": "Strings.ValidPalindromeII",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "FirstMissingPositive",
+      "request": "launch",
+      "mainClass": "arrays.FirstMissingPositive",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "Ransome",
+      "request": "launch",
+      "mainClass": "Strings.Ransome",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ProductExceptSelf",
+      "request": "launch",
+      "mainClass": "arrays.ProductExceptSelf",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "SortColors",
+      "request": "launch",
+      "mainClass": "arrays.SortColors",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "mergeSort",
+      "request": "launch",
+      "mainClass": "arrays.Sorting.MergeSort.mergeSort",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "MoreBubbleSort",
+      "request": "launch",
+      "mainClass": "arrays.Sorting.BubbleSort.MoreBubbleSort",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "KfrequentElements",
+      "request": "launch",
+      "mainClass": "Probs.KfrequentElements",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "SetMatrixZeroes",
+      "request": "launch",
+      "mainClass": "revsision.SetMatrixZeroes",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "RotateArray2",
+      "request": "launch",
+      "mainClass": "revsision.RotateArray2",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "LongestPalindromicSubstring",
+      "request": "launch",
+      "mainClass": "Strings.LongestPalindromicSubstring",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
       "name": "ArrangeCoins",
       "request": "launch",
       "mainClass": "Probs.ArrangeCoins",

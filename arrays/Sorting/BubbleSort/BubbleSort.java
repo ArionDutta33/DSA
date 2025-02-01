@@ -12,9 +12,7 @@ public class BubbleSort {
                     arr[j - 1] = temp;
                 }
             }
-
         }
-
     }
 
     public static void main(String[] args) {

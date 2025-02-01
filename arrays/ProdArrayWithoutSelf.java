@@ -3,25 +3,22 @@ package arrays;
 import java.util.Arrays;
 
 public class ProdArrayWithoutSelf {
-    static int[] prod(int[] nums) {
-        int prod = 1;
-        int[] arr = new int[nums.length];
-        for (int i = 0; i < nums.length; i++) {
-            //
-            prod *= nums[i];
 
+    static void prod(int[] arr) {
+        int[] ans = new int[arr.length];
+        ans[0] = 1;
+        for (int i = 1; i < arr.length; i++) {
+            ans[i] = arr[i - 1] * ans[i - 1];
         }
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] != 0) {
-                arr[i] = prod / nums[i];
-            }
+        int suffix = 1;
+        for (int i = ans.length - 2; i >= 0; i--) {
+            suffix *= arr[i + 1];
+            ans[i] *= suffix;
         }
-        return arr;
+        System.out.println(Arrays.toString(ans));
     }
 
     public static void main(String[] args) {
-        int[] arr = { -1, 0, 1, 2, 3 };
-        int[] res = prod(arr);
-        System.out.println(Arrays.toString(res));
+        prod(new int[] { 1, 2, 3, 4 });
     }
 }
