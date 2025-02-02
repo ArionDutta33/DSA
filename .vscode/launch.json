@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MergeSortedArrays",
+      "request": "launch",
+      "mainClass": "arrays.MergeSortedArrays",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
       "name": "ValidAdjacentPairs",
       "request": "launch",
       "mainClass": "Strings.ValidAdjacentPairs",
