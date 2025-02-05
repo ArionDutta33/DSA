@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StringSwap",
+      "request": "launch",
+      "mainClass": "Probs.StringSwap",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ThreeSum",
+      "request": "launch",
+      "mainClass": "arrays.ThreeSum",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
       "name": "MergeSortedArrays",
       "request": "launch",
       "mainClass": "arrays.MergeSortedArrays",

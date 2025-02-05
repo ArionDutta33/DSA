@@ -1,23 +1,16 @@
 package arrays;
 
-import java.util.Arrays;
-
 public class MergeSortedArrays {
     static void mergeSortedArrays(int[] arr1, int[] arr2) {
         int i = 0;
-        while (arr1[i] != 0) {
-            i++;
+        while (i < arr1.length) {
+            if () {
+            }
         }
-        int j = 0;
-        while (j < arr2.length) {
-            arr1[i] = arr2[j];
-            i++;
-            j++;
-        }
-        System.out.println(Arrays.toString(arr1));
+        System.out.println(arr1[i]);
     }
 
     public static void main(String[] args) {
-        mergeSortedArrays(new int[] { 1 }, new int[] {});
+        mergeSortedArrays(new int[] { 1, 2, 3, 0, 0, 0 }, new int[] { 2, 5, 6 });
     }
 }
