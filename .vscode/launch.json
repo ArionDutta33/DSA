@@ -6,6 +6,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LengthOfLongestSubstring",
+      "request": "launch",
+      "mainClass": "Probs.LengthOfLongestSubstring",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ContainsDuplicate",
+      "request": "launch",
+      "mainClass": "Probs.ContainsDuplicate",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "BoatsToSave",
+      "request": "launch",
+      "mainClass": "Probs.BoatsToSave",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ContainingWater",
+      "request": "launch",
+      "mainClass": "Probs.ContainingWater",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
       "name": "StringSwap",
       "request": "launch",
       "mainClass": "Probs.StringSwap",
