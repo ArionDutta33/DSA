@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AteroidCollision",
+      "request": "launch",
+      "mainClass": "Stacks.AteroidCollision",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ValidParenthesis",
+      "request": "launch",
+      "mainClass": "Stacks.ValidParenthesis",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "BaseBallGame",
+      "request": "launch",
+      "mainClass": "Stacks.BaseBallGame",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
       "name": "LengthOfLongestSubstring",
       "request": "launch",
       "mainClass": "Probs.LengthOfLongestSubstring",
