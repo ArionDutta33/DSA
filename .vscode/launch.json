@@ -6,6 +6,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Intro",
+      "request": "launch",
+      "mainClass": "LinkedList.Intro",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "Factorial",
+      "request": "launch",
+      "mainClass": "revsision.Factorial",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "OneToN2",
+      "request": "launch",
+      "mainClass": "revsision.OneToN2",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "SetMatrixZeroes2",
+      "request": "launch",
+      "mainClass": "revsision.SetMatrixZeroes2",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "LongestSequence",
+      "request": "launch",
+      "mainClass": "revsision.LongestSequence",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "nextPermutation",
+      "request": "launch",
+      "mainClass": "revsision.nextPermutation",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "MaxSubArraySum2",
+      "request": "launch",
+      "mainClass": "revsision.MaxSubArraySum2",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "N2Times",
+      "request": "launch",
+      "mainClass": "revsision.N2Times",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
       "name": "AteroidCollision",
       "request": "launch",
       "mainClass": "Stacks.AteroidCollision",
