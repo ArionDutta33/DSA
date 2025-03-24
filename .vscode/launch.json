@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LongestSubstring",
+      "request": "launch",
+      "mainClass": "Probs.LongestSubstring",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "MoveZeroes",
+      "request": "launch",
+      "mainClass": "AdvanceRecursion.MoveZeroes",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "ReverseArray",
+      "request": "launch",
+      "mainClass": "AdvanceRecursion.ReverseArray",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "Pow",
+      "request": "launch",
+      "mainClass": "AdvanceRecursion.Pow",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
+      "name": "LinkedListAgain",
+      "request": "launch",
+      "mainClass": "LinkedList.LinkedListAgain",
+      "projectName": "DSA_723acd1e"
+    },
+    {
+      "type": "java",
       "name": "Intro",
       "request": "launch",
       "mainClass": "LinkedList.Intro",

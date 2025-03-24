@@ -1,5 +1,7 @@
 package LinkedList;
 
+import java.util.HashSet;
+
 import revsision.nextPermutation;
 
 class LinkedList {
@@ -63,12 +65,19 @@ class LinkedList {
         if (head == null) {
             return;
         }
+        if (length == 1) {
+            head = null;
+            tail = null;
+            return;
+        }
         Node temp = head;
-        while (temp.next != null) {
+        Node pre = head;
+        while (temp != null && temp.next != null) {
+            pre = temp;
             temp = temp.next;
         }
-        tail = temp;
-        temp.next = null;
+        tail = pre;
+        pre.next = null;
         length--;
     }
 
@@ -88,17 +97,25 @@ class LinkedList {
         if (length == 1) {
             head = null;
             tail = null;
+            return;
         }
+        Node temp = head;
+        head = head.next;
+        temp.next = null;
+        length--;
     }
 }
 
 public class Intro {
     public static void main(String[] args) {
         LinkedList list = new LinkedList(2);
+        HashSet<Integer>set=new HashSet<>();
+        set.contains(o)
         list.addLast(20);
+        System.out.println("check");
         // list.removeLast();
-        list.addFirst(1);
-
+        // list.addFirst(1);
+        list.removeFirst();
         list.printList();
     }
 }
